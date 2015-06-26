@@ -1,0 +1,123 @@
+﻿Build started 20-May-15 10:08:50 AM.
+     1>Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\residential\residential.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\core /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CTR_DEPRECATE_NO_WARNING /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\residential\\" /Fd"Win32\Debug\residential\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt appliance.cpp clotheswasher.cpp dishwasher.cpp dryer.cpp evcharger.cpp evcharger_det.cpp freezer.cpp house_a.cpp house_e.cpp init.cpp lights.cpp main.cpp microwave.cpp occupantload.cpp plugload.cpp range.cpp refrigerator.cpp residential_enduse.cpp solvers.cpp thermal_storage.cpp waterheater.cpp zipload.cpp
+         zipload.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\zipload.cpp(421): warning C4244: '=' : conversion from 'double' to '__int64', possible loss of data
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\zipload.cpp(426): warning C4244: '=' : conversion from 'double' to '__int64', possible loss of data
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\zipload.cpp(444): warning C4244: '=' : conversion from 'double' to '__int64', possible loss of data
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\zipload.cpp(466): warning C4244: '=' : conversion from 'double' to '__int64', possible loss of data
+         waterheater.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         thermal_storage.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         solvers.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         residential_enduse.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         refrigerator.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\refrigerator.cpp(393): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\refrigerator.cpp(397): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\refrigerator.cpp(409): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\refrigerator.cpp(414): warning C4244: 'argument' : conversion from 'TIMESTAMP' to 'double', possible loss of data
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\refrigerator.cpp(434): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\refrigerator.cpp(437): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\refrigerator.cpp(440): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\refrigerator.cpp(643): warning C4244: '=' : conversion from 'double' to 'int32', possible loss of data
+         range.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\range.cpp(629): warning C4244: 'initializing' : conversion from 'double' to 'TIMESTAMP', possible loss of data
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\range.cpp(1059): warning C4102: 'SingleZone' : unreferenced label
+         plugload.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         occupantload.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         microwave.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         main.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+         lights.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         init.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         house_e.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\house_e.cpp(926): warning C4996: '_strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(175) : see declaration of '_strlwr'
+         house_e: add update_system voltage adjustment for heating
+         house_a.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         freezer.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         evcharger_det.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         evcharger.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         dryer.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         dishwasher.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+         Generating Code...
+         Compiling...
+         clotheswasher.cpp
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46): warning C4005: 'INFINITY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\clotheswasher.cpp(299): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         appliance.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(102): warning C4005: 'INFINITY' : macro redefinition
+                 c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\core\platform.h(46) : see previous definition of 'INFINITY'
+     1>c:\users\mafoti\documents\visual studio 2013\projects\trunk gridlab-d-code\residential\appliance.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\VS2005\Win32\Debug\residential.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\VS2005\Win32\Debug\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\VS2005\Win32\Debug\residential.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\VS2005\Win32\Debug\residential.lib" /MACHINE:X86 /SAFESEH /DLL Win32\Debug\residential\appliance.obj
+         Win32\Debug\residential\clotheswasher.obj
+         Win32\Debug\residential\dishwasher.obj
+         Win32\Debug\residential\dryer.obj
+         Win32\Debug\residential\evcharger.obj
+         Win32\Debug\residential\evcharger_det.obj
+         Win32\Debug\residential\freezer.obj
+         Win32\Debug\residential\house_a.obj
+         Win32\Debug\residential\house_e.obj
+         Win32\Debug\residential\init.obj
+         Win32\Debug\residential\lights.obj
+         Win32\Debug\residential\main.obj
+         Win32\Debug\residential\microwave.obj
+         Win32\Debug\residential\occupantload.obj
+         Win32\Debug\residential\plugload.obj
+         Win32\Debug\residential\range.obj
+         Win32\Debug\residential\refrigerator.obj
+         Win32\Debug\residential\residential_enduse.obj
+         Win32\Debug\residential\solvers.obj
+         Win32\Debug\residential\thermal_storage.obj
+         Win32\Debug\residential\waterheater.obj
+         Win32\Debug\residential\zipload.obj
+     1>appliance.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library ..\VS2005\Win32\Debug\residential.lib and object ..\VS2005\Win32\Debug\residential.exp
+         residential.vcxproj -> C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\residential\..\VS2005\Win32\Debug\residential.dll
+     1>Done Building Project "C:\Users\mafoti\Documents\Visual Studio 2013\Projects\trunk gridlab-d-code\residential\residential.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.24
